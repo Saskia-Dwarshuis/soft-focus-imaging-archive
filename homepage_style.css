@@ -1,0 +1,139 @@
+/*  
+    Colors: 
+        #F7FAF5 -- Sitewide "white", really a very desaturated and light green
+        #D4F0C6 -- Green-most element color
+        #E6F5DE -- Midpoint between those two
+        #241D12 -- Sitewide "black", really a dark and sesaturated brown
+        #33800D -- Hyperlink default
+ */
+
+
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #F7FAF5;
+    margin: 0;
+    font-family: Verdana, Arial, sans-serif;
+    color: #241D12;
+
+    a:link {
+      color: #33800D;
+    }
+
+    a:visited {
+        color: #33800D;
+      }
+
+    a:hover {
+      color: #2E6BE6;
+      background: #E8EBE6;
+    }
+
+  }
+
+.header {
+  background: #D4F0C6;
+  border-style: none;
+  position: static;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-right: 52px;
+  padding-left: 78px;
+
+  .siteName {
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  .siteTagline {
+      padding: 0rem;
+      margin: 0rem;
+      font-size: 1.25rem;
+  }
+
+}
+
+.midsection {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftsection {
+  width: 360px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.sidebar {
+  .sideHeader {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .sideNavigation {
+    text-align: right;
+  }
+}
+
+.midSectionSeperator {
+  background: #241D12;
+  margin-top: 40px;
+  margin-right: 20px;
+  width: 6px;
+}
+
+.rightsection {
+  margin-right: 60px;
+  margin-top: 30px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.contentHeader {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(225deg, #F7FAF5, #D4F0C6);
+  border-radius: 20px 60px;
+  h1 {
+    margin: 0px;
+  }
+  p {
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row
+}
+
+.footer {
+  background-image: linear-gradient(45deg, #F7FAF5, #D4F0C6);
+  border-style: none;
+  padding: 0px 20px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.homeBodyColumn {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px
+}
